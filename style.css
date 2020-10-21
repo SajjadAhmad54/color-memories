@@ -223,6 +223,15 @@ footer .inner-container .paragraph p{
         padding: 0px;
     }
 }
+
+    @media (min-width:320px) and (max-width:767px)
+    {
+    .main-container footer .inner-container .footer-menu  ul li a:hover{
+      text-decoration: underline;
+      color:black
+    }
+}
+
 .main-container footer .inner-container .footer-menu ul li:last-child a{
     margin-right: 0px;
 } 
